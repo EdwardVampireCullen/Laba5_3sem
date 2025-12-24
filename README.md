@@ -15,21 +15,21 @@ Laba5_3sem/ # Корневая папка
 
 https://github.com/EdwardVampireCullen/Laba5_3sem/tree/master
 
-2. Настройте базу данных
+2.Настройте базу данных
 Установите SQL Server (Express версия бесплатна)
 
 Создайте базу данных:
 -Запрос в файле Laba5DB
 
-3. Откройте проект
+3.Откройте проект
 -Перейдите в папку Laba5_3sem
 -Откройте файл Laba5_3sem.sln в Visual Studio
 
-4. Настройте подключение
+4.Настройте подключение
 В файле DatabaseHelper.cs измените строку подключения:
 
 private string connectionString = @"Server=ВАШ_СЕРВЕР\SQLEXPRESS;Database=Laba5DB;Trusted_Connection=True;";
 
-5. Запустите проект
+4.Запустите проект
 -Нажмите F5 для запуска
 -Проверьте подключение через кнопку "Тест подключения"
