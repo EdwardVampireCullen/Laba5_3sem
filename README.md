@@ -1,17 +1,22 @@
 📁 Структура проекта
-Laba5_3sem/ # Корневая папка
-── Laba5_3sem.sln # Файл решения (Solution)
-── Laba5_3sem/ # Основная папка проекта
-── Form1.cs # Главная форма (выбор режима)
-── Form2.cs # Форма управления пользователями
-── DatabaseHelper.cs # Работа с базой данных
-── Person.cs # Модель пользователя
-── Form1.Designer.cs # Дизайн Form1
-── Form2.Designer.cs # Дизайн Form2
-── Program.cs # Точка входа
-── DatabaseBackup/
-── Laba5DB_Backup.sql # Скрипт восстановления БД
-── README.md # Этот файл
+Laba5_3sem/
+├── Form1.cs              # Главная форма с выбором режима
+
+├── Form2.cs              # Основная форма управления данными
+
+├── DatabaseHelper.cs     # Класс для работы с базой данных
+
+├── Person.cs             # Класс модели пользователя
+
+├── Program.cs            # Точка входа
+
+├── Form1.Designer.cs     # Дизайн главной формы
+
+├── Form2.Designer.cs     # Дизайн основной формы
+
+└── DatabaseBackup/
+
+    └── Laba5DB_Backup.sql  # Скрипт восстановления БД
 
 https://github.com/EdwardVampireCullen/Laba5_3sem/tree/master
 
