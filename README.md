@@ -13,6 +13,8 @@ Laba5_3sem/ # Корневая папка
 ── Laba5DB_Backup.sql # Скрипт восстановления БД
 ── README.md # Этот файл
 
+https://github.com/EdwardVampireCullen/Laba5_3sem/tree/master
+
 2. Настройте базу данных
 Установите SQL Server (Express версия бесплатна)
 
@@ -25,6 +27,7 @@ Laba5_3sem/ # Корневая папка
 
 4. Настройте подключение
 В файле DatabaseHelper.cs измените строку подключения:
+
 private string connectionString = @"Server=ВАШ_СЕРВЕР\SQLEXPRESS;Database=Laba5DB;Trusted_Connection=True;";
 
 5. Запустите проект
